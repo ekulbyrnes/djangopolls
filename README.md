@@ -38,7 +38,7 @@ From your container folder `./`, the following files and structure should be pre
 
     a. `""" Django settings for <newprojectname> project.`
     
-    b. `ROOT_URLCONF = '*<newprojectname>.urls'`
+    b. `ROOT_URLCONF = '<newprojectname>.urls'`
     
     c. `WSGI_APPLICATION = '<newprojectname>.wsgi.application'`
 
