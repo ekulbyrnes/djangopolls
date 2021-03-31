@@ -92,6 +92,9 @@ DATABASES = {
         'PASSWORD': env('MYSQL_PASSWORD'),
         'HOST': env('MYSQL_HOST'),
         'PORT': 3306,
+        'TEST': {
+            'NAME': 'django_test',
+        }
     }
 }
 
